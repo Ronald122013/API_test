@@ -1,0 +1,18 @@
+adb shell pm list packages -3  #获取包名
+
+com.galanz.business
+'''
+--ignore-crashes  无视crash，继续执行
+--ignore-timeouts 无视No response，继续执行
+--pct-touch 50 触摸时间的百分比
+--pct-motion  滑动事件
+--pct-anyevent  任意事件
+
+
+
+'''
+
+adb shell monkey -p com.galanz.business --pct-touch 50 --throttle 500 --ignore-crashes --ignore-timeouts --ignore-native-crashes --monitor-native-crashes -v -v -v 1000000 > F:\monkey_report\monkey_20200714.log 2>&1 &
+
+
+

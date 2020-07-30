@@ -1,0 +1,20 @@
+{
+    "message":"请求成功、结果处理成功",
+    "code":"200",
+    "data":{
+             "offset":0,
+             "limit":100,
+             "total":0,
+             "size":100,
+             "pages":0,
+             "current":1,
+             "searchCount":true,
+             "openSort":true,
+             "optimizeCount":false,
+             "orderByField":null,
+             "records":[],
+             "condition":null,
+             "asc":true,
+             "offsetCurrent":0
+             }
+}

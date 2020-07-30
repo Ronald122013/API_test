@@ -1,0 +1,9 @@
+{
+    "token":"",
+    "wechatCouponDTO":{
+                        "coupon_stock_id": "string",
+                        "openid": "string",
+                        "openid_count": 0,
+                        "wxCode": "string"
+                        }
+}
